@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #a8a61b, #f0f34f);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    color: #ff0080;
+    text-decoration: none;
+    font-size: 50px;
+}
+.about{
+    /* width:90%;
+    padding: 150px;
+    padding-right: 100px; */
+    text-align: center;
+}
+.about p{
+    padding-top: 60px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+.about h1{
+    font-weight: bold;
+    color: rgb(21, 37, 180);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #7d1c91, #b048e0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+.skills {
+    width: 80%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    height: 25px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* Skill Colors */
+.html-css { background: #ff5733; }
+.js { background: #f7df1e; color: black; }
+.java { background: #1132eb; }
+.database { background: #d431c7; }
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro, .skills {
+        width: 95%;
+    }
+    h2 {
+        font-size: 24px;
+    }
+}
